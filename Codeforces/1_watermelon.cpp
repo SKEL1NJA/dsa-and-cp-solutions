@@ -1,5 +1,5 @@
 // Problem link: https://codeforces.com/problemset/problem/4/A
-
+// submission link: https://codeforces.com/contest/4/submission/368865234
 
 #include <bits/stdc++.h>
 using namespace std;
