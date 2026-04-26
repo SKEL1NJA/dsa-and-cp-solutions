@@ -1,5 +1,5 @@
 // Problem Link: https://atcoder.jp/contests/dp/tasks/dp_c
-// Submission Link: 
+// Submission Link: https://atcoder.jp/contests/dp/submissions/75299460
 
 #include <bits/stdc++.h>
 using namespace std;
