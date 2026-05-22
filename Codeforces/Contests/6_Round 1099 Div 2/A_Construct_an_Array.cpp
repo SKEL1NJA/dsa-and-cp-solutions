@@ -1,5 +1,5 @@
 // Problem Link: https://codeforces.com/contest/2231/problem/A
-// Submission Link: https://codeforces.com/contest/2231/submission/375487098
+// Submission Link: https://codeforces.com/contest/2231/submission/375582118
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -20,12 +20,13 @@ void solve()
     int n;
     cin >> n;
 
-    for (int i = n + 1; i <= 2 * n; i++)
-    {
-        cout << i << " ";
+    for(int i=1;i<=n;i++){
+        if(i==1) cout<<i<<" ";
+        else if(i%2 == 0) cout<<2*(i-1)<<" ";
+        else cout<<2*i-1<<" ";
     }
 
-    cout << endl;
+    cout<<endl;
 }
 
 int main()
